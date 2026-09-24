@@ -22,7 +22,7 @@ En una prueba controlada, Responder puede detectar solicitudes de resolución de
 └──────────┬──────────┘
            │
            │ 1. Intenta acceder a:
-           │    \\ARCHIVO-SRV\Publico
+           │    \\recursodemo.local
            │
            │    DNS no encuentra el nombre
            ▼
@@ -31,7 +31,7 @@ En una prueba controlada, Responder puede detectar solicitudes de resolución de
 │                              │
 │       LLMNR / NBT-NS         │
 │                              │
-│  "¿Quién es ARCHIVO-SRV?"    │
+│"¿Quién es recursodemo.local?"│
 └──────────────┬───────────────┘
                │
                │ 2. Responder recibe
@@ -43,7 +43,7 @@ En una prueba controlada, Responder puede detectar solicitudes de resolución de
 └──────────┬──────────┘
            │
            │ 3. Responde:
-           │    "ARCHIVO-SRV soy yo"
+           │    "recursodemo.local soy yo"
            ▼
 ┌─────────────────────┐
 │      Windows 10     │
