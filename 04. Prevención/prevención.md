@@ -8,4 +8,4 @@
 
 Estas medidas reducen la posibilidad de que un atacante pueda provocar, capturar y posteriormente utilizar autenticaciones NTLM dentro de la red.
 
-**Joseph González**
+**Joseph González** - Best H4cker in Town :) 
