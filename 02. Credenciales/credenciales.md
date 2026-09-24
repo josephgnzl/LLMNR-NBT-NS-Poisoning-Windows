@@ -27,4 +27,8 @@ El evento de mayor relevancia corresponde a la autenticación SMB mediante NTLMv
 [*] [LLMNR] Poisoned answer sent to 10.10.10.20 for name recurso
 [*] [LLMNR] Poisoned answer sent to 10.10.10.20 for name recurso
 ```
+## Siguiente Paso 
 
+Una vez interceptada la respuesta NTLMv2, el análisis se traslada a un entorno fuera de línea (offline). El objetivo de esta etapa es someter el material criptográfico capturado a un ataque de diccionario o de fuerza bruta para intentar deducir la contraseña original en texto claro.
+
+Utilizaremos la herramienta ```hashcat```.
