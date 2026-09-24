@@ -46,7 +46,7 @@ Como resultado, el atacante puede capturar material de autenticación NetNTLMv2,
           │    y captura el desafío/respuesta
           ▼
 ┌────────────────────┐
-│  NetNTLMv2 capturado│
+│ NetNTLMv2 capturado│
 └────────────────────┘
 ```
 
