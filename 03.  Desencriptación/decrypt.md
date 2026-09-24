@@ -39,3 +39,6 @@ Session..........: hashcat
 Status...........: Cracked
 ```
 
+## Conclusión 
+
+El proceso concluyó con el cracking exitoso del material de autenticación NetNTLMv2 capturado previamente mediante Responder. Este resultado no representa únicamente la exposición de una credencial, sino el posible punto de entrada hacia otros recursos y servicios accesibles por la cuenta comprometida. Dependiendo de los permisos, relaciones de confianza y controles existentes en el entorno, una credencial válida puede facilitar el acceso a sistemas adicionales, movimiento lateral y la identificación de nuevas oportunidades de escalamiento dentro de la infraestructura.
